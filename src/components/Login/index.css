@@ -1,0 +1,79 @@
+.login-container {
+  background-image: url('https://res.cloudinary.com/djabl2byk/image/upload/v1745334627/Background_ibpvm9.png');
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  color: #333333;
+  font-family: 'Roboto';
+  padding: 40px 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 10px;
+}
+label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+.logo {
+  align-self: center;
+  width: 60%;
+}
+.username,
+.password {
+  border: 1px solid #64748b;
+  border-radius: 4px;
+  padding: 3px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  align-items: flex-start;
+}
+input[type='checkbox'] {
+  accent-color: #088c03; /* Red color */
+}
+.input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.btn {
+  align-self: stretch;
+  padding: 10px;
+  border-radius: 7px;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: #088c03;
+  width: 100%;
+  margin-top: 15px;
+  cursor:pointer;
+}
+.btn:disabled {
+  background-color: #b3b3b3;
+}
+.error-msg {
+  color: red;
+  font-size: 11px;
+}
+@media (min-width: 768px) {
+  .login-container {
+    background-image: url('https://res.cloudinary.com/djabl2byk/image/upload/v1745337217/Background_1_zkpych.png');
+  }
+  .card-container {
+    width: 30%;
+  }
+}

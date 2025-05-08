@@ -1,0 +1,20 @@
+.footer-container {
+  background-color: #003f00;
+  height: 300px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 0;
+}
+.footer-address {
+  font-size: 14px;
+}
+.footer-icons {
+  display: flex;
+}
+.footer-icons img {
+  margin-right: 15px;
+}
