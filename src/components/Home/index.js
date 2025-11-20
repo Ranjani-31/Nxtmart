@@ -197,6 +197,7 @@ class Home extends Component {
                         src={eachProduct.image}
                         alt={eachProduct.name}
                         className="product-image"
+                        loading="lazy"
                       />
                       <div className="product-details">
                         {isOrdered(eachProduct.id) ? (
