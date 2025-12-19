@@ -1,21 +1,43 @@
 # NxtMart
-NxtMart is the minimal E-commerce website built using React.
+
+NxtMart is a minimal and responsive e-commerce web application built using React, designed to provide a smooth shopping experience with essential e-commerce functionalities such as authentication, product exploration, cart management, and wishlist handling.
+
+**🔗 Live Demo:** https://nxtmartcom.ccbp.tech/
 
 ## Features
-- Cart session
-- Wishlist
-- Authentication
-- Product explore
-   
-   
-## User Credentials
 
-**username**: rahul
-**password**: rahul@2021
+### User Authentication
 
-**username**: saira
-**password**: princess@9
+- Secure login with session handling
 
-https://nxtmartcom.ccbp.tech/
+### Product Exploration
 
+- Browse products with detailed views
 
+### Cart Management
+
+- Add, remove, and manage cart items with session persistence
+
+### Wishlist
+
+- Save favorite products for later
+
+- Responsive UI
+
+- Optimized for desktop and mobile screens
+
+## Demo Credentials
+
+Use the following credentials to explore the application:
+
+### User 1
+
+**Username:** rahul
+
+**Password:** rahul@2021
+
+### User 2
+
+**Username:** saira
+
+**Password:** princess@9
